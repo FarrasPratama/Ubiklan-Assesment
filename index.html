@@ -1,0 +1,1332 @@
+<!DOCTYPE html>
+<html lang="en" class="light-style layout-menu-fixed" dir="ltr" data-theme="theme-default" data-assets-path="assets/" data-template="vertical-menu-template-free">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+    <title>UbiScreen</title>
+    <meta name="description" content="" />
+    <link rel="icon" type="image/x-icon" href="foto/logo.jpg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/vendor/fonts/boxicons.css" />
+    <link rel="stylesheet" href="assets/vendor/css/style2.css" class="template-customizer-core-css" />
+    <link rel="stylesheet" href="assets/vendor/css/style.css" class="template-customizer-theme-css" />
+    <link rel="stylesheet" href="assets/css/atas.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <script src="assets/vendor/js/helpers.js"></script>
+    <script src="assets/js/config.js"></script>
+</head>
+
+<body>
+    <div class="layout-wrapper layout-content-navbar bg-white">
+        <div class="layout-container">
+            <aside id="layout-menu" class="layout-menu menu-vertical menu bg-menu-theme">
+                <div class="app-brand demo">
+                    <a href="index.html" class="app-brand-link">
+                        <span class="app-brand-logo demo"><img src="foto/logo.jpg" width="50px"></span>
+                        <span class="app-brand-text demo menu-text fw-bolder ms-2">UbiScreen</span>
+                    </a>
+
+                    <a href="javascript:void(0);" class="layout-menu-toggle menu-link text-large ms-auto d-block d-xl-none">
+                        <i class="bx bx-chevron-left bx-sm align-middle"></i>
+                    </a>
+                </div>
+
+                <div class="menu-inner-shadow"></div>
+
+                <ul class="menu-inner py-1">
+                    <li class="menu-item active">
+                        <a href="index.html" class="menu-link">
+                            <i class="menu-icon tf-icons bx bx-home-circle"></i>
+                            <div data-i18n="Analytics">Overview</div>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="index.html" class="menu-link">
+                            <i class="menu-icon tf-icons bx bx-layout"></i>
+                            <div data-i18n="Analytics">Screen</div>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="index.html" class="menu-link">
+                            <i class="menu-icon tf-icons bx bx-camera"></i>
+                            <div data-i18n="Analytics">Media</div>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="index.html" class="menu-link">
+                            <i class="menu-icon tf-icons bx bx-list-check"></i>
+                            <div data-i18n="Analytics">Playlist</div>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="index.html" class="menu-link">
+                            <i class="menu-icon tf-icons bx bx-calendar"></i>
+                            <div data-i18n="Analytics">Schedule</div>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="index.html" class="menu-link">
+                            <i class="menu-icon tf-icons bx bx-chart"></i>
+                            <div data-i18n="Analytics">Statistic</div>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="index.html" class="menu-link">
+                            <i class="menu-icon tf-icons bx bx-wallet"></i>
+                            <div data-i18n="Analytics">Payouts</div>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="index.html" class="menu-link">
+                            <i class="menu-icon tf-gear bx bx-cog"></i>
+                            <div data-i18n="Analytics">Settings</div>
+                        </a>
+                    </li>
+                </ul>
+            </aside>
+            <div class="layout-page">
+
+                <nav class="layout-navbar container-xxl navbar navbar-expand-xl navbar-detached align-items-center bg-navbar-theme" id="layout-navbar">
+                    <div class="layout-menu-toggle navbar-nav align-items-xl-center me-3 me-xl-0 d-xl-none">
+                        <a class="nav-item nav-link px-0 me-xl-4" href="javascript:void(0)">
+                            <i class="bx bx-menu bx-sm"></i>
+                        </a>
+                    </div>
+
+                    <div class="navbar-nav-right d-flex align-items-center" id="navbar-collapse">
+                        <div class="navbar-nav align-items-center">
+                            <div class="nav-item d-flex align-items-center">
+                                <i class="bx bx-search fs-4 lh-0"></i>
+                                <input type="text" class="form-control border-0 shadow-none" placeholder="Search" aria-label="Search..." />
+                            </div>
+                        </div>
+                        <ul class="navbar-nav flex-row align-items-center ms-auto">
+                            <li class="nav-item lh-1 me-3">
+                                <a class="" href=""><i class="bx bx-bell"></i></a>
+                            </li>
+
+                            <li class="nav-item navbar-dropdown dropdown-user dropdown">
+                                <a class="nav-link dropdown-toggle hide-arrow" href="javascript:void(0);" data-bs-toggle="dropdown">
+                                    <div class="row">
+                                        <div class="col-4 col-md-4">
+                                            <div class="avatar avatar-online">
+                                                <img src="foto/johndoe.png" alt class="w-px-40 h-auto rounded-circle" />
+                                            </div>
+                                        </div>
+                                        <div class="col-6 col-md-6">
+                                            <span class="fw-semibold d-block">John Doe</span>
+                                            <small class="text-muted">Admin</small>
+                                        </div>
+                                    </div>
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-end">
+                                    <li>
+                                        <a class="dropdown-item" href="#">
+                                            <div class="d-flex">
+                                                <div class="flex-shrink-0 me-3">
+                                                    <div class="avatar avatar-online">
+                                                        <img src="foto/johndoe.png" alt class="w-px-40 h-auto rounded-circle" />
+                                                    </div>
+                                                </div>
+                                                <div class="flex-grow-1">
+                                                    <span class="fw-semibold d-block">John Doe</span>
+                                                    <small class="text-muted">Admin</small>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <div class="dropdown-divider"></div>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">
+                                            <i class="bx bx-user me-2"></i>
+                                            <span class="align-middle">My Profile</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">
+                                            <i class="bx bx-cog me-2"></i>
+                                            <span class="align-middle">Settings</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <div class="dropdown-divider"></div>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="auth-login-basic.html">
+                                            <i class="bx bx-power-off me-2"></i>
+                                            <span class="align-middle">Log Out</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item lh-1 me-3">
+                                <a class="" href=""><i class="bx bx-down-arrow"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="content-wrapper">
+                    <hr>
+                    <div class="container-xxl flex-grow-1">
+                        <div class="row">
+                            <div class="col-lg-12 mb-4 order-0">
+                                <h4 class="fw-bold py-3"><span class="text-warning fw-light">Videotron</span> &nbsp;> &nbsp;UB0022373 - Videotron 001</h4>
+                                <ul class="nav nav-pills pt-2 border-bottom" id="myTab" role="tablist">
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link active" id="detail-tab" data-bs-toggle="tab" data-bs-target="#detail" type="button" role="tab" aria-controls="detail" aria-selected="true">Detail</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="schedule-tab" data-bs-toggle="tab" data-bs-target="#schedule" type="button" role="tab" aria-controls="schedule" aria-selected="false">Schedule</button>
+                                    </li>
+                                </ul>
+                                <div class="tab-content p-0">
+                                    <div class="tab-pane active" id="detail" role="tabpanel" aria-labelledby="detail-tab" tabindex="0">
+                                        <div class="p-3">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="mb-4">
+                                                        <h5 class="card-header">Turned On</h5>
+                                                        <div class="card-body">
+                                                            <div class="row">
+                                                                <div class="col-md-6 mb-3">
+                                                                    <img src="foto/1.png" alt="user-avatar" width="100%" class="d-block rounded" height="400px" id="uploadedAvatar" />
+                                                                    <div class="row mt-3">
+                                                                        <div class="col-4 col-md-3 mb-3">
+                                                                            <img src="foto/1.png" alt="user-avatar" width="100%" class="d-block rounded border border-3 border-warning" height="100px" id="uploadedAvatar" />
+                                                                        </div>
+                                                                        <div class="col-4 col-md-3 mb-3">
+                                                                            <img src="foto/2.png" alt="user-avatar" width="100%" class="d-block rounded" height="100px" id="uploadedAvatar" />
+                                                                        </div>
+                                                                        <div class="col-4 col-md-3 mb-3">
+                                                                            <img src="foto/3.jpg" alt="user-avatar" width="100%" class="d-block rounded" height="100px" id="uploadedAvatar" />
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-6">
+                                                                    <div class="row mb-3">
+                                                                        <div class="d-flex justify-content-between align-items-center">
+                                                                            <h5 class="mb-0"><b>Videotron 001</b><br><br>
+                                                                                <p class="text-muted mb-0">ID : UB0012341</p>
+                                                                            </h5>
+                                                                            <button class="btn btn-outline-warning float-end btn-lg"><i class="bx bx-edit"> </i> Edit</button>
+                                                                        </div>
+                                                                    </div>
+                                                                    <br>
+                                                                    <div class="row mb-3">
+                                                                        <div class="col-md-9">
+                                                                            <div class="alert alert-secondary mb-3">
+                                                                                <div class="d-flex mb-3">
+                                                                                    <div class="flex-shrink-0">
+                                                                                        <i class="bx bx-map pb-2"></i>
+                                                                                    </div>
+                                                                                    <div class="flex-grow-1 row">
+                                                                                        <div class="col-12 mb-sm-0 mb-2">
+                                                                                            <h6 class="mb-2">Mall Taman Palem, it 8, Cengkareng, Jakarta Barat, DKI Jakarta</h6>
+                                                                                            <a class="text-warning" href="">See on maps <i class="bx bx-arrow-to-right"></i></a>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="row mb-3">
+                                                                        <div class="col-md-9">
+                                                                            <div class="row mb-3">
+                                                                                <div class="col-md-6 mb-3">
+                                                                                    <h6 class="mb-0"><b>Type</b></h6>
+                                                                                    <small class="text-muted">Videotron</small>
+                                                                                </div>
+                                                                                <div class="col-md-6 mb-3">
+                                                                                    <h6 class="mb-0"><b>Resolution</b></h6>
+                                                                                    <small class="text-muted">Widescreen 16:9 (1920x1080)</small>
+                                                                                    <br>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="row">
+                                                                                <div class="col-md-6">
+                                                                                    <h6 class="mb-0"><b>Size</b></h6>
+                                                                                    <small class="text-muted">40 inch</small>
+                                                                                </div>
+
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- isi content schedule -->
+                                    <div class="tab-pane" id="schedule" role="tabpanel" aria-labelledby="schedule-tab" tabindex="0">
+                                        <div class="d-flex flex-wrap align-items-center p-3">
+                                            <button class="btn btn-outline-secondary">Today</button>
+                                            <div class="ms-3">
+                                                <button class="btn btn-outline-secondary px-2">
+                                <i class="tf-icons bx bx-chevron-left"></i>
+                              </button>
+                                                <span id="date" class="mx-2 fw-semibold">November 2021</span>
+                                                <button class="btn btn-outline-secondary px-2">
+                                <i class="tf-icons bx bx-chevron-right"></i>
+                              </button>
+                                            </div>
+                                        </div>
+                                        <div class="table-responsive pb-2">
+                                            <table class="table teble-sm table-borderless">
+                                                <thead class="border-bottom">
+                                                    <th></th>
+                                                    <th>00:00</th>
+                                                    <th>01:00</th>
+                                                    <th>02:00</th>
+                                                    <th>03:00</th>
+                                                    <th>04:00</th>
+                                                    <th>05:00</th>
+                                                    <th>06:00</th>
+                                                    <th>07:00</th>
+                                                    <th>08:00</th>
+                                                    <th>09:00</th>
+                                                    <th>10:00</th>
+                                                    <th>11:00</th>
+                                                    <th>12:00</th>
+                                                    <th>13:00</th>
+                                                    <th>14:00</th>
+                                                    <th>15:00</th>
+                                                    <th>16:00</th>
+                                                    <th>17:00</th>
+                                                    <th>18:00</th>
+                                                    <th>19:00</th>
+                                                    <th>20:00</th>
+                                                    <th>21:00</th>
+                                                    <th>22:00</th>
+                                                    <th>23:00</th>
+                                                    <th>24:00</th>
+                                                </thead>
+                                                <tbody class="text-left">
+                                                    <!-- row 1 -->
+                                                    <tr>
+                                                        <td class="p-2">
+                                                            <div class="text-center d-flex flex-column pt-2" style="width: 50px; height: 50px; font-size: 13px;">
+                                                                <span id="nameOfDay">Mon</span>
+                                                                <span id="dateOfDay">1</span>
+                                                            </div>
+                                                        </td>
+                                                        <td colspan="5" class="p-1">
+                                                            <div class="bg-primary rounded p-2" style="font-size: 12px;">
+                                                                <div class="text-white">Schedule #001</div>
+                                                                <div class="text-white">00:00 - 05:00</div>
+                                                            </div>
+                                                        </td>
+                                                        <td colspan="4" class="p-1">
+                                                            <div class="bg-success rounded p-2" style="font-size: 12px;">
+                                                                <div class="text-white">Schedule #002</div>
+                                                                <div class="text-white">05:00 - 09:00</div>
+                                                            </div>
+                                                        </td>
+                                                        <td colspan="4" class="p-1">
+                                                            <div class="bg-warning rounded p-2" style="font-size: 12px;">
+                                                                <div class="text-white">Schedule #003</div>
+                                                                <div class="text-white">09:00 - 13:00</div>
+                                                            </div>
+                                                        </td>
+                                                        <td colspan="6" class="p-1">
+                                                            <div class="bg-danger rounded p-2" style="font-size: 12px;">
+                                                                <div class="text-white">Schedule #004</div>
+                                                                <div class="text-white">13:00 - 19:00</div>
+                                                            </div>
+                                                        </td>
+                                                        <td colspan="3" class="p-1">
+                                                            <div class="bg-secondary rounded p-2" style="font-size: 12px;">
+                                                                <div class="text-white">Schedule #005</div>
+                                                                <div class="text-white">19:00 - 22:00</div>
+                                                            </div>
+                                                        </td>
+                                                        <td colspan="3" class="p-1">
+                                                            <div class="bg-dark rounded p-2" style="font-size: 12px;">
+                                                                <div class="text-white">Schedule #006</div>
+                                                                <div class="text-white">22:00 - 24:00</div>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <!-- row 2 -->
+                                                    <tr>
+                                                        <td class="p-2">
+                                                            <div class="text-center d-flex flex-column pt-2" style="width: 50px; height: 50px; font-size: 13px;">
+                                                                <span id="nameOfDay">Tue</span>
+                                                                <span id="dateOfDay">2</span>
+                                                            </div>
+                                                        </td>
+                                                        <td colspan="5" class="p-1">
+                                                            <div class="bg-primary rounded p-2" style="font-size: 12px;">
+                                                                <div class="text-white">Schedule #001</div>
+                                                                <div class="text-white">00:00 - 05:00</div>
+                                                            </div>
+                                                        </td>
+                                                        <td colspan="4" class="p-1">
+                                                            <div class="bg-success rounded p-2" style="font-size: 12px;">
+                                                                <div class="text-white">Schedule #002</div>
+                                                                <div class="text-white">05:00 - 09:00</div>
+                                                            </div>
+                                                        </td>
+                                                        <td colspan="4" class="p-1">
+                                                            <div class="bg-warning rounded p-2" style="font-size: 12px;">
+                                                                <div class="text-white">Schedule #003</div>
+                                                                <div class="text-white">09:00 - 13:00</div>
+                                                            </div>
+                                                        </td>
+                                                        <td colspan="6" class="p-1">
+                                                            <div class="bg-danger rounded p-2" style="font-size: 12px;">
+                                                                <div class="text-white">Schedule #004</div>
+                                                                <div class="text-white">13:00 - 19:00</div>
+                                                            </div>
+                                                        </td>
+                                                        <td colspan="3" class="p-1">
+                                                            <div class="bg-secondary rounded p-2" style="font-size: 12px;">
+                                                                <div class="text-white">Schedule #005</div>
+                                                                <div class="text-white">19:00 - 22:00</div>
+                                                            </div>
+                                                        </td>
+                                                        <td colspan="3" class="p-1">
+                                                            <div class="bg-dark rounded p-2" style="font-size: 12px;">
+                                                                <div class="text-white">Schedule #006</div>
+                                                                <div class="text-white">22:00 - 24:00</div>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <!-- row 3 -->
+                                                    <tr>
+                                                        <td class="p-2">
+                                                            <div class="text-center d-flex flex-column pt-2" style="width: 50px; height: 50px; font-size: 13px;">
+                                                                <span id="nameOfDay">Wed</span>
+                                                                <span id="dateOfDay">3</span>
+                                                            </div>
+                                                        </td>
+                                                        <td colspan="25" class="p-1">
+                                                            <div class="bg-primary rounded p-2" style="font-size: 12px;">
+                                                                <div class="text-white">Schedule #001</div>
+                                                                <div class="text-white">00:00 - 24:00</div>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <!-- row 4 -->
+                                                    <tr>
+                                                        <td class="p-2">
+                                                            <div class="text-center d-flex flex-column pt-2" style="width: 50px; height: 50px; font-size: 13px;">
+                                                                <span id="nameOfDay">Thu</span>
+                                                                <span id="dateOfDay">4</span>
+                                                            </div>
+                                                        </td>
+                                                        <td colspan="25" class="p-1">
+                                                            <div class="bg-primary rounded p-2" style="font-size: 12px;">
+                                                                <div class="text-white">Schedule #001</div>
+                                                                <div class="text-white">00:00 - 24:00</div>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <!-- row 5 -->
+                                                    <tr>
+                                                        <td class="p-2">
+                                                            <div class="text-center d-flex flex-column pt-2" style="width: 50px; height: 50px; font-size: 13px;">
+                                                                <span id="nameOfDay">Fri</span>
+                                                                <span id="dateOfDay">5</span>
+                                                            </div>
+                                                        </td>
+                                                        <td colspan="25" class="p-1">
+                                                            <div class="bg-primary rounded p-2" style="font-size: 12px;">
+                                                                <div class="text-white">Schedule #001</div>
+                                                                <div class="text-white">00:00 - 24:00</div>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <!-- row 6 -->
+                                                    <tr>
+                                                        <td class="p-2">
+                                                            <div class="text-center rounded-circle bg-warning text-white d-flex flex-column pt-2" style="width: 50px; height: 50px; font-size: 13px;">
+                                                                <span id="nameOfDay">Sat</span>
+                                                                <span id="dateOfDay">6</span>
+                                                            </div>
+                                                        </td>
+                                                        <td colspan="7" class="p-1">
+                                                            <div class="bg-primary rounded p-2" style="font-size: 12px;">
+                                                                <div class="text-white">Schedule #001</div>
+                                                                <div class="text-white">00:00 - 07:00</div>
+                                                            </div>
+                                        </div>
+                                        </td>
+                                        <td colspan="3" class="p-1">
+                                            <div class="bg-info rounded p-2" style="font-size: 12px;">
+                                                <div class="text-white">Schedule #007</div>
+                                                <div class="text-white">07:00 - 10:00</div>
+                                            </div>
+                                        </td>
+                                        <td colspan="4" class="p-1">
+                                            <div class="bg-primary rounded p-2" style="font-size: 12px;">
+                                                <div class="text-white">Schedule #001</div>
+                                                <div class="text-white">10:00 - 14:00</div>
+                                            </div>
+                                        </td>
+                                        <td colspan="6" class="p-1">
+                                            <div class="bg-danger rounded p-2" style="font-size: 12px;">
+                                                <div class="text-white">Schedule #004</div>
+                                                <div class="text-white">14:00 - 20:00</div>
+                                            </div>
+                                        </td>
+                                        <td colspan="3" class="p-1">
+                                            <div class="bg-secondary rounded p-2" style="font-size: 12px;">
+                                                <div class="text-white">Schedule #005</div>
+                                                <div class="text-white">20:00 - 22:00</div>
+                                            </div>
+                                        </td>
+                                        <td colspan="3" class="p-1">
+                                            <div class="bg-dark rounded p-2" style="font-size: 12px;">
+                                                <div class="text-white">Schedule #006</div>
+                                                <div class="text-white">22:00 - 24:00</div>
+                                            </div>
+                                        </td>
+                                        </tr>
+                                        <!-- row 7 -->
+                                        <tr>
+                                            <td class="p-2">
+                                                <div class="text-center d-flex flex-column pt-2" style="width: 50px; height: 50px; font-size: 13px;">
+                                                    <span id="nameOfDay">Sun</span>
+                                                    <span id="dateOfDay">7</span>
+                                                </div>
+                                            </td>
+                                            <td colspan="7" class="p-1">
+                                                <div class="bg-primary rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #001</div>
+                                                    <div class="text-white">00:00 - 07:00</div>
+                                                </div>
+                                            </td>
+                                            <td colspan="3" class="p-1">
+                                                <div class="bg-info rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #007</div>
+                                                    <div class="text-white">07:00 - 10:00</div>
+                                                </div>
+                                            </td>
+                                            <td colspan="4" class="p-1">
+                                                <div class="bg-primary rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #001</div>
+                                                    <div class="text-white">10:00 - 14:00</div>
+                                                </div>
+                                            </td>
+                                            <td colspan="6" class="p-1">
+                                                <div class="bg-danger rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #004</div>
+                                                    <div class="text-white">14:00 - 20:00</div>
+                                                </div>
+                                            </td>
+                                            <td colspan="3" class="p-1">
+                                                <div class="bg-secondary rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #005</div>
+                                                    <div class="text-white">20:00 - 22:00</div>
+                                                </div>
+                                            </td>
+                                            <td colspan="3" class="p-1">
+                                                <div class="bg-dark rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #006</div>
+                                                    <div class="text-white">22:00 - 24:00</div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <!-- row 8 -->
+                                        <tr>
+                                            <td class="p-2">
+                                                <div class="text-center d-flex flex-column pt-2" style="width: 50px; height: 50px; font-size: 13px;">
+                                                    <span id="nameOfDay">Mon</span>
+                                                    <span id="dateOfDay">8</span>
+                                                </div>
+                                            </td>
+                                            <td colspan="5" class="p-1">
+                                                <div class="bg-primary rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #001</div>
+                                                    <div class="text-white">00:00 - 05:00</div>
+                                                </div>
+                                            </td>
+                                            <td colspan="4" class="p-1">
+                                                <div class="bg-success rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #002</div>
+                                                    <div class="text-white">05:00 - 09:00</div>
+                                                </div>
+                                            </td>
+                                            <td colspan="4" class="p-1">
+                                                <div class="bg-warning rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #003</div>
+                                                    <div class="text-white">09:00 - 13:00</div>
+                                                </div>
+                                            </td>
+                                            <td colspan="6" class="p-1">
+                                                <div class="bg-danger rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #004</div>
+                                                    <div class="text-white">13:00 - 19:00</div>
+                                                </div>
+                                            </td>
+                                            <td colspan="3" class="p-1">
+                                                <div class="bg-secondary rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #005</div>
+                                                    <div class="text-white">19:00 - 22:00</div>
+                                                </div>
+                                            </td>
+                                            <td colspan="3" class="p-1">
+                                                <div class="bg-dark rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #006</div>
+                                                    <div class="text-white">22:00 - 24:00</div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <!-- row 9 -->
+                                        <tr>
+                                            <td class="p-2">
+                                                <div class="text-center d-flex flex-column pt-2" style="width: 50px; height: 50px; font-size: 13px;">
+                                                    <span id="nameOfDay">Tue</span>
+                                                    <span id="dateOfDay">9</span>
+                                                </div>
+                                            </td>
+                                            <td colspan="5" class="p-1">
+                                                <div class="bg-primary rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #001</div>
+                                                    <div class="text-white">00:00 - 05:00</div>
+                                                </div>
+                                            </td>
+                                            <td colspan="4" class="p-1">
+                                                <div class="bg-success rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #002</div>
+                                                    <div class="text-white">05:00 - 09:00</div>
+                                                </div>
+                                            </td>
+                                            <td colspan="4" class="p-1">
+                                                <div class="bg-warning rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #003</div>
+                                                    <div class="text-white">09:00 - 13:00</div>
+                                                </div>
+                                            </td>
+                                            <td colspan="6" class="p-1">
+                                                <div class="bg-danger rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #004</div>
+                                                    <div class="text-white">13:00 - 19:00</div>
+                                                </div>
+                                            </td>
+                                            <td colspan="3" class="p-1">
+                                                <div class="bg-secondary rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #005</div>
+                                                    <div class="text-white">19:00 - 22:00</div>
+                                                </div>
+                                            </td>
+                                            <td colspan="3" class="p-1">
+                                                <div class="bg-dark rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #006</div>
+                                                    <div class="text-white">22:00 - 24:00</div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <!-- row 10 -->
+                                        <tr>
+                                            <td class="p-2">
+                                                <div class="text-center d-flex flex-column pt-2" style="width: 50px; height: 50px; font-size: 13px;">
+                                                    <span id="nameOfDay">Wed</span>
+                                                    <span id="dateOfDay">10</span>
+                                                </div>
+                                            </td>
+                                            <td colspan="25" class="p-1">
+                                                <div class="bg-primary rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #001</div>
+                                                    <div class="text-white">00:00 - 24:00</div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <!-- row 11 -->
+                                        <tr>
+                                            <td class="p-2">
+                                                <div class="text-center d-flex flex-column pt-2" style="width: 50px; height: 50px; font-size: 13px;">
+                                                    <span id="nameOfDay">Thu</span>
+                                                    <span id="dateOfDay">11</span>
+                                                </div>
+                                            </td>
+                                            <td colspan="25" class="p-1">
+                                                <div class="bg-primary rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #001</div>
+                                                    <div class="text-white">00:00 - 24:00</div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <!-- row 12 -->
+                                        <tr>
+                                            <td class="p-2">
+                                                <div class="text-center d-flex flex-column pt-2" style="width: 50px; height: 50px; font-size: 13px;">
+                                                    <span id="nameOfDay">Fri</span>
+                                                    <span id="dateOfDay">12</span>
+                                                </div>
+                                            </td>
+                                            <td colspan="25" class="p-1">
+                                                <div class="bg-primary rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #001</div>
+                                                    <div class="text-white">00:00 - 24:00</div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <!-- row 13 -->
+                                        <tr>
+                                            <td class="p-2">
+                                                <div class="text-center d-flex flex-column pt-2" style="width: 50px; height: 50px; font-size: 13px;">
+                                                    <span id="nameOfDay">Sat</span>
+                                                    <span id="dateOfDay">13</span>
+                                                </div>
+                                            </td>
+                                            <td colspan="7" class="p-1">
+                                                <div class="bg-primary rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #001</div>
+                                                    <div class="text-white">00:00 - 07:00</div>
+                                                </div>
+                                            </td>
+                                            <td colspan="3" class="p-1">
+                                                <div class="bg-info rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #007</div>
+                                                    <div class="text-white">07:00 - 10:00</div>
+                                                </div>
+                                            </td>
+                                            <td colspan="4" class="p-1">
+                                                <div class="bg-primary rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #001</div>
+                                                    <div class="text-white">10:00 - 14:00</div>
+                                                </div>
+                                            </td>
+                                            <td colspan="6" class="p-1">
+                                                <div class="bg-danger rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #004</div>
+                                                    <div class="text-white">14:00 - 20:00</div>
+                                                </div>
+                                            </td>
+                                            <td colspan="3" class="p-1">
+                                                <div class="bg-secondary rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #005</div>
+                                                    <div class="text-white">20:00 - 22:00</div>
+                                                </div>
+                                            </td>
+                                            <td colspan="3" class="p-1">
+                                                <div class="bg-dark rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #006</div>
+                                                    <div class="text-white">22:00 - 24:00</div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <!-- row 14 -->
+                                        <tr>
+                                            <td class="p-2">
+                                                <div class="text-center d-flex flex-column pt-2" style="width: 50px; height: 50px; font-size: 13px;">
+                                                    <span id="nameOfDay">Sun</span>
+                                                    <span id="dateOfDay">14</span>
+                                                </div>
+                                            </td>
+                                            <td colspan="7" class="p-1">
+                                                <div class="bg-primary rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #001</div>
+                                                    <div class="text-white">00:00 - 07:00</div>
+                                                </div>
+                                            </td>
+                                            <td colspan="3" class="p-1">
+                                                <div class="bg-info rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #007</div>
+                                                    <div class="text-white">07:00 - 10:00</div>
+                                                </div>
+                                            </td>
+                                            <td colspan="4" class="p-1">
+                                                <div class="bg-primary rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #001</div>
+                                                    <div class="text-white">10:00 - 14:00</div>
+                                                </div>
+                                            </td>
+                                            <td colspan="6" class="p-1">
+                                                <div class="bg-danger rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #004</div>
+                                                    <div class="text-white">14:00 - 20:00</div>
+                                                </div>
+                                            </td>
+                                            <td colspan="3" class="p-1">
+                                                <div class="bg-secondary rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #005</div>
+                                                    <div class="text-white">20:00 - 22:00</div>
+                                                </div>
+                                            </td>
+                                            <td colspan="3" class="p-1">
+                                                <div class="bg-dark rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #006</div>
+                                                    <div class="text-white">22:00 - 24:00</div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <!-- row 15 -->
+                                        <tr>
+                                            <td class="p-2">
+                                                <div class="text-center d-flex flex-column pt-2" style="width: 50px; height: 50px; font-size: 13px;">
+                                                    <span id="nameOfDay">Mon</span>
+                                                    <span id="dateOfDay">15</span>
+                                                </div>
+                                            </td>
+                                            <td colspan="5" class="p-1">
+                                                <div class="bg-primary rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #001</div>
+                                                    <div class="text-white">00:00 - 05:00</div>
+                                                </div>
+                                            </td>
+                                            <td colspan="4" class="p-1">
+                                                <div class="bg-success rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #002</div>
+                                                    <div class="text-white">05:00 - 09:00</div>
+                                                </div>
+                                            </td>
+                                            <td colspan="4" class="p-1">
+                                                <div class="bg-warning rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #003</div>
+                                                    <div class="text-white">09:00 - 13:00</div>
+                                                </div>
+                                            </td>
+                                            <td colspan="6" class="p-1">
+                                                <div class="bg-danger rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #004</div>
+                                                    <div class="text-white">13:00 - 19:00</div>
+                                                </div>
+                                            </td>
+                                            <td colspan="3" class="p-1">
+                                                <div class="bg-secondary rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #005</div>
+                                                    <div class="text-white">19:00 - 22:00</div>
+                                                </div>
+                                            </td>
+                                            <td colspan="3" class="p-1">
+                                                <div class="bg-dark rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #006</div>
+                                                    <div class="text-white">22:00 - 24:00</div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <!-- row 16 -->
+                                        <tr>
+                                            <td class="p-2">
+                                                <div class="text-center d-flex flex-column pt-2" style="width: 50px; height: 50px; font-size: 13px;">
+                                                    <span id="nameOfDay">Tue</span>
+                                                    <span id="dateOfDay">16</span>
+                                                </div>
+                                            </td>
+                                            <td colspan="5" class="p-1">
+                                                <div class="bg-primary rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #001</div>
+                                                    <div class="text-white">00:00 - 05:00</div>
+                                                </div>
+                                            </td>
+                                            <td colspan="4" class="p-1">
+                                                <div class="bg-success rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #002</div>
+                                                    <div class="text-white">05:00 - 09:00</div>
+                                                </div>
+                                            </td>
+                                            <td colspan="4" class="p-1">
+                                                <div class="bg-warning rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #003</div>
+                                                    <div class="text-white">09:00 - 13:00</div>
+                                                </div>
+                                            </td>
+                                            <td colspan="6" class="p-1">
+                                                <div class="bg-danger rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #004</div>
+                                                    <div class="text-white">13:00 - 19:00</div>
+                                                </div>
+                                            </td>
+                                            <td colspan="3" class="p-1">
+                                                <div class="bg-secondary rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #005</div>
+                                                    <div class="text-white">19:00 - 22:00</div>
+                                                </div>
+                                            </td>
+                                            <td colspan="3" class="p-1">
+                                                <div class="bg-dark rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #006</div>
+                                                    <div class="text-white">22:00 - 24:00</div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <!-- row 17 -->
+                                        <tr>
+                                            <td class="p-2">
+                                                <div class="text-center d-flex flex-column pt-2" style="width: 50px; height: 50px; font-size: 13px;">
+                                                    <span id="nameOfDay">Wed</span>
+                                                    <span id="dateOfDay">17</span>
+                                                </div>
+                                            </td>
+                                            <td colspan="25" class="p-1">
+                                                <div class="bg-primary rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #001</div>
+                                                    <div class="text-white">00:00 - 24:00</div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <!-- row 18 -->
+                                        <tr>
+                                            <td class="p-2">
+                                                <div class="text-center d-flex flex-column pt-2" style="width: 50px; height: 50px; font-size: 13px;">
+                                                    <span id="nameOfDay">Thu</span>
+                                                    <span id="dateOfDay">18</span>
+                                                </div>
+                                            </td>
+                                            <td colspan="25" class="p-1">
+                                                <div class="bg-primary rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #001</div>
+                                                    <div class="text-white">00:00 - 24:00</div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <!-- row 19 -->
+                                        <tr>
+                                            <td class="p-2">
+                                                <div class="text-center d-flex flex-column pt-2" style="width: 50px; height: 50px; font-size: 13px;">
+                                                    <span id="nameOfDay">Fri</span>
+                                                    <span id="dateOfDay">19</span>
+                                                </div>
+                                            </td>
+                                            <td colspan="25" class="p-1">
+                                                <div class="bg-primary rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #001</div>
+                                                    <div class="text-white">00:00 - 24:00</div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <!-- row 20 -->
+                                        <tr>
+                                            <td class="p-2">
+                                                <div class="text-center d-flex flex-column pt-2" style="width: 50px; height: 50px; font-size: 13px;">
+                                                    <span id="nameOfDay">Sat</span>
+                                                    <span id="dateOfDay">20</span>
+                                                </div>
+                                            </td>
+                                            <td colspan="7" class="p-1">
+                                                <div class="bg-primary rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #001</div>
+                                                    <div class="text-white">00:00 - 07:00</div>
+                                                </div>
+                                            </td>
+                                            <td colspan="3" class="p-1">
+                                                <div class="bg-info rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #007</div>
+                                                    <div class="text-white">07:00 - 10:00</div>
+                                                </div>
+                                            </td>
+                                            <td colspan="4" class="p-1">
+                                                <div class="bg-primary rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #001</div>
+                                                    <div class="text-white">10:00 - 14:00</div>
+                                                </div>
+                                            </td>
+                                            <td colspan="6" class="p-1">
+                                                <div class="bg-danger rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #004</div>
+                                                    <div class="text-white">14:00 - 20:00</div>
+                                                </div>
+                                            </td>
+                                            <td colspan="3" class="p-1">
+                                                <div class="bg-secondary rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #005</div>
+                                                    <div class="text-white">20:00 - 22:00</div>
+                                                </div>
+                                            </td>
+                                            <td colspan="3" class="p-1">
+                                                <div class="bg-dark rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #006</div>
+                                                    <div class="text-white">22:00 - 24:00</div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <!-- row 21 -->
+                                        <tr>
+                                            <td class="p-2">
+                                                <div class="text-center d-flex flex-column pt-2" style="width: 50px; height: 50px; font-size: 13px;">
+                                                    <span id="nameOfDay">Sun</span>
+                                                    <span id="dateOfDay">21</span>
+                                                </div>
+                                            </td>
+                                            <td colspan="7" class="p-1">
+                                                <div class="bg-primary rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #001</div>
+                                                    <div class="text-white">00:00 - 07:00</div>
+                                                </div>
+                                            </td>
+                                            <td colspan="3" class="p-1">
+                                                <div class="bg-info rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #007</div>
+                                                    <div class="text-white">07:00 - 10:00</div>
+                                                </div>
+                                            </td>
+                                            <td colspan="4" class="p-1">
+                                                <div class="bg-primary rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #001</div>
+                                                    <div class="text-white">10:00 - 14:00</div>
+                                                </div>
+                                            </td>
+                                            <td colspan="6" class="p-1">
+                                                <div class="bg-danger rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #004</div>
+                                                    <div class="text-white">14:00 - 20:00</div>
+                                                </div>
+                                            </td>
+                                            <td colspan="3" class="p-1">
+                                                <div class="bg-secondary rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #005</div>
+                                                    <div class="text-white">20:00 - 22:00</div>
+                                                </div>
+                                            </td>
+                                            <td colspan="3" class="p-1">
+                                                <div class="bg-dark rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #006</div>
+                                                    <div class="text-white">22:00 - 24:00</div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <!-- row 22 -->
+                                        <tr>
+                                            <td class="p-2">
+                                                <div class="text-center d-flex flex-column pt-2" style="width: 50px; height: 50px; font-size: 13px;">
+                                                    <span id="nameOfDay">Mon</span>
+                                                    <span id="dateOfDay">22</span>
+                                                </div>
+                                            </td>
+                                            <td colspan="5" class="p-1">
+                                                <div class="bg-primary rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #001</div>
+                                                    <div class="text-white">00:00 - 05:00</div>
+                                                </div>
+                                            </td>
+                                            <td colspan="4" class="p-1">
+                                                <div class="bg-success rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #002</div>
+                                                    <div class="text-white">05:00 - 09:00</div>
+                                                </div>
+                                            </td>
+                                            <td colspan="4" class="p-1">
+                                                <div class="bg-warning rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #003</div>
+                                                    <div class="text-white">09:00 - 13:00</div>
+                                                </div>
+                                            </td>
+                                            <td colspan="6" class="p-1">
+                                                <div class="bg-danger rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #004</div>
+                                                    <div class="text-white">13:00 - 19:00</div>
+                                                </div>
+                                            </td>
+                                            <td colspan="3" class="p-1">
+                                                <div class="bg-secondary rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #005</div>
+                                                    <div class="text-white">19:00 - 22:00</div>
+                                                </div>
+                                            </td>
+                                            <td colspan="3" class="p-1">
+                                                <div class="bg-dark rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #006</div>
+                                                    <div class="text-white">22:00 - 24:00</div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <!-- row 23 -->
+                                        <tr>
+                                            <td class="p-2">
+                                                <div class="text-center d-flex flex-column pt-2" style="width: 50px; height: 50px; font-size: 13px;">
+                                                    <span id="nameOfDay">Tue</span>
+                                                    <span id="dateOfDay">23</span>
+                                                </div>
+                                            </td>
+                                            <td colspan="5" class="p-1">
+                                                <div class="bg-primary rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #001</div>
+                                                    <div class="text-white">00:00 - 05:00</div>
+                                                </div>
+                                            </td>
+                                            <td colspan="4" class="p-1">
+                                                <div class="bg-success rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #002</div>
+                                                    <div class="text-white">05:00 - 09:00</div>
+                                                </div>
+                                            </td>
+                                            <td colspan="4" class="p-1">
+                                                <div class="bg-warning rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #003</div>
+                                                    <div class="text-white">09:00 - 13:00</div>
+                                                </div>
+                                            </td>
+                                            <td colspan="6" class="p-1">
+                                                <div class="bg-danger rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #004</div>
+                                                    <div class="text-white">13:00 - 19:00</div>
+                                                </div>
+                                            </td>
+                                            <td colspan="3" class="p-1">
+                                                <div class="bg-secondary rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #005</div>
+                                                    <div class="text-white">19:00 - 22:00</div>
+                                                </div>
+                                            </td>
+                                            <td colspan="3" class="p-1">
+                                                <div class="bg-dark rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #006</div>
+                                                    <div class="text-white">22:00 - 24:00</div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <!-- row 24 -->
+                                        <tr>
+                                            <td class="p-2">
+                                                <div class="text-center d-flex flex-column pt-2" style="width: 50px; height: 50px; font-size: 13px;">
+                                                    <span id="nameOfDay">Wed</span>
+                                                    <span id="dateOfDay">24</span>
+                                                </div>
+                                            </td>
+                                            <td colspan="25" class="p-1">
+                                                <div class="bg-primary rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #001</div>
+                                                    <div class="text-white">00:00 - 24:00</div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <!-- row 25 -->
+                                        <tr>
+                                            <td class="p-2">
+                                                <div class="text-center d-flex flex-column pt-2" style="width: 50px; height: 50px; font-size: 13px;">
+                                                    <span id="nameOfDay">Thu</span>
+                                                    <span id="dateOfDay">25</span>
+                                                </div>
+                                            </td>
+                                            <td colspan="25" class="p-1">
+                                                <div class="bg-primary rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #001</div>
+                                                    <div class="text-white">00:00 - 24:00</div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <!-- row 26 -->
+                                        <tr>
+                                            <td class="p-2">
+                                                <div class="text-center d-flex flex-column pt-2" style="width: 50px; height: 50px; font-size: 13px;">
+                                                    <span id="nameOfDay">Fri</span>
+                                                    <span id="dateOfDay">26</span>
+                                                </div>
+                                            </td>
+                                            <td colspan="25" class="p-1">
+                                                <div class="bg-primary rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #001</div>
+                                                    <div class="text-white">00:00 - 24:00</div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <!-- row 27 -->
+                                        <tr>
+                                            <td class="p-2">
+                                                <div class="text-center d-flex flex-column pt-2" style="width: 50px; height: 50px; font-size: 13px;">
+                                                    <span id="nameOfDay">Sat</span>
+                                                    <span id="dateOfDay">27</span>
+                                                </div>
+                                            </td>
+                                            <td colspan="7" class="p-1">
+                                                <div class="bg-primary rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #001</div>
+                                                    <div class="text-white">00:00 - 07:00</div>
+                                                </div>
+                                            </td>
+                                            <td colspan="3" class="p-1">
+                                                <div class="bg-info rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #007</div>
+                                                    <div class="text-white">07:00 - 10:00</div>
+                                                </div>
+                                            </td>
+                                            <td colspan="4" class="p-1">
+                                                <div class="bg-primary rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #001</div>
+                                                    <div class="text-white">10:00 - 14:00</div>
+                                                </div>
+                                            </td>
+                                            <td colspan="6" class="p-1">
+                                                <div class="bg-danger rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #004</div>
+                                                    <div class="text-white">14:00 - 20:00</div>
+                                                </div>
+                                            </td>
+                                            <td colspan="3" class="p-1">
+                                                <div class="bg-secondary rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #005</div>
+                                                    <div class="text-white">20:00 - 22:00</div>
+                                                </div>
+                                            </td>
+                                            <td colspan="3" class="p-1">
+                                                <div class="bg-dark rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #006</div>
+                                                    <div class="text-white">22:00 - 24:00</div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <!-- row 28 -->
+                                        <tr>
+                                            <td class="p-2">
+                                                <div class="text-center d-flex flex-column pt-2" style="width: 50px; height: 50px; font-size: 13px;">
+                                                    <span id="nameOfDay">Sun</span>
+                                                    <span id="dateOfDay">28</span>
+                                                </div>
+                                            </td>
+                                            <td colspan="7" class="p-1">
+                                                <div class="bg-primary rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #001</div>
+                                                    <div class="text-white">00:00 - 07:00</div>
+                                                </div>
+                                            </td>
+                                            <td colspan="3" class="p-1">
+                                                <div class="bg-info rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #007</div>
+                                                    <div class="text-white">07:00 - 10:00</div>
+                                                </div>
+                                            </td>
+                                            <td colspan="4" class="p-1">
+                                                <div class="bg-primary rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #001</div>
+                                                    <div class="text-white">10:00 - 14:00</div>
+                                                </div>
+                                            </td>
+                                            <td colspan="6" class="p-1">
+                                                <div class="bg-danger rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #004</div>
+                                                    <div class="text-white">14:00 - 20:00</div>
+                                                </div>
+                                            </td>
+                                            <td colspan="3" class="p-1">
+                                                <div class="bg-secondary rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #005</div>
+                                                    <div class="text-white">20:00 - 22:00</div>
+                                                </div>
+                                            </td>
+                                            <td colspan="3" class="p-1">
+                                                <div class="bg-dark rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #006</div>
+                                                    <div class="text-white">22:00 - 24:00</div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <!-- row 29 -->
+                                        <tr>
+                                            <td class="p-2">
+                                                <div class="text-center d-flex flex-column pt-2" style="width: 50px; height: 50px; font-size: 13px;">
+                                                    <span id="nameOfDay">Mon</span>
+                                                    <span id="dateOfDay">29</span>
+                                                </div>
+                                            </td>
+                                            <td colspan="5" class="p-1">
+                                                <div class="bg-primary rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #001</div>
+                                                    <div class="text-white">00:00 - 05:00</div>
+                                                </div>
+                                            </td>
+                                            <td colspan="4" class="p-1">
+                                                <div class="bg-success rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #002</div>
+                                                    <div class="text-white">05:00 - 09:00</div>
+                                                </div>
+                                            </td>
+                                            <td colspan="4" class="p-1">
+                                                <div class="bg-warning rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #003</div>
+                                                    <div class="text-white">09:00 - 13:00</div>
+                                                </div>
+                                            </td>
+                                            <td colspan="6" class="p-1">
+                                                <div class="bg-danger rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #004</div>
+                                                    <div class="text-white">13:00 - 19:00</div>
+                                                </div>
+                                            </td>
+                                            <td colspan="3" class="p-1">
+                                                <div class="bg-secondary rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #005</div>
+                                                    <div class="text-white">19:00 - 22:00</div>
+                                                </div>
+                                            </td>
+                                            <td colspan="3" class="p-1">
+                                                <div class="bg-dark rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #006</div>
+                                                    <div class="text-white">22:00 - 24:00</div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <!-- row 30 -->
+                                        <tr>
+                                            <td class="p-2">
+                                                <div class="text-center d-flex flex-column pt-2" style="width: 50px; height: 50px; font-size: 13px;">
+                                                    <span id="nameOfDay">Tue</span>
+                                                    <span id="dateOfDay">30</span>
+                                                </div>
+                                            </td>
+                                            <td colspan="5" class="p-1">
+                                                <div class="bg-primary rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #001</div>
+                                                    <div class="text-white">00:00 - 05:00</div>
+                                                </div>
+                                            </td>
+                                            <td colspan="4" class="p-1">
+                                                <div class="bg-success rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #002</div>
+                                                    <div class="text-white">05:00 - 09:00</div>
+                                                </div>
+                                            </td>
+                                            <td colspan="4" class="p-1">
+                                                <div class="bg-warning rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #003</div>
+                                                    <div class="text-white">09:00 - 13:00</div>
+                                                </div>
+                                            </td>
+                                            <td colspan="6" class="p-1">
+                                                <div class="bg-danger rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #004</div>
+                                                    <div class="text-white">13:00 - 19:00</div>
+                                                </div>
+                                            </td>
+                                            <td colspan="3" class="p-1">
+                                                <div class="bg-secondary rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #005</div>
+                                                    <div class="text-white">19:00 - 22:00</div>
+                                                </div>
+                                            </td>
+                                            <td colspan="3" class="p-1">
+                                                <div class="bg-dark rounded p-2" style="font-size: 12px;">
+                                                    <div class="text-white">Schedule #006</div>
+                                                    <div class="text-white">22:00 - 24:00</div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                        <tfoot></tfoot>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!--  -->
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content-backdrop fade"></div>
+    </div>
+    </div>
+    </div>
+    <div class="layout-overlay layout-menu-toggle"></div>
+    </div>
+    <script src="assets/vendor/libs/jquery/jquery.js"></script>
+    <script src="assets/vendor/js/bootstrap.js"></script>
+    <script src="assets/vendor/js/menu.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
