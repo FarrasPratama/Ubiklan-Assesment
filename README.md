@@ -1,4 +1,4 @@
 # Ubiklan-Assessment
-##Docs
-###Access
-link: 
+## Docs
+### Access
+link: https://farraspratama.github.io/Ubiklan-Assessment/
