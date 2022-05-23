@@ -144,19 +144,19 @@
   }
   
   .active,
-  .demo:hover {
+  .demx:hover {
     opacity: 1;
     /* border: 1px solid #d9dee3 !important;
     border-width: 3px !important;
     border-color: #ffab00 !important; */
   }
 
-  .demo:hover{
+  .demx:hover{
     border: 1px solid #d9dee3 !important;
     border-width: 3px !important;
     border-color: #ffab00 !important;
   }
 
-  .demo {
+  .demx {
     opacity: 0.6;
   }
